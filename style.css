@@ -1,0 +1,826 @@
+body{
+    margin:0px;
+    
+}
+
+.header{
+    height: 83px;
+    background-color: lightblue;
+   
+}
+
+.nopadding{
+    padding: 0px !important;
+}
+
+.innerHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.header .logo{
+    height: 74px;
+    padding: 6px 0px;
+
+}
+
+.navbar-nav .nav-link{
+    color: black;
+    text-shadow: 1px 2px 3px #80808078;
+}
+
+.navbar-expand-md .navbar-collapse {
+  
+    justify-content: space-between;
+}
+
+.yenri-btn{
+    background-color: #ffff;
+    border: none;
+    padding: 13px 37px;
+    border-radius: 28px;
+    box-shadow: 1px 11px 5px rgb(0 0 0 / 16%);
+    position: relative;
+}
+
+.yenri-btn span {
+    z-index: 27;
+    position: relative;
+}
+.yenri-btn::after {
+    content: " ";
+    height: 100%;
+    width: 54px;
+    background-color: #dfe0e161;
+    position: absolute;
+    right: 0;
+    top: 0;
+    border-radius: 37px;
+    z-index: 1;
+}
+.banner {
+    background-color: lightblue;
+    /* height: 638px; */
+    width: 100%;
+    padding-bottom: 75px;
+}
+
+.innerBanner{
+    /* display: flex; */
+    justify-content: space-between;
+  
+}
+.Ban-Image img{
+    /* background-image: url(./images/lgtblueBg.png);
+    background-repeat: no-repeat;
+    background-size: 660px 668px;
+    background-position: left;
+    height: 486px;  */
+    width: 100%;
+    
+}
+
+
+
+.banner .Ban-Content{
+  
+    text-align: left;
+}
+
+ .Ban-Content .displayBan{
+    font-size: 4.5rem;
+    color: #5B8AC7;
+    font-weight: bold;
+    text-shadow: 1px 9px 2px #00000021;
+}
+
+.Ban-Content .BanPara{
+    margin: 39px 0px;
+}
+/* .container{
+    padding: 0px;
+    background-color:#8080801a;
+} */
+.aboutUs{
+
+    background-color:#8080801a;
+  
+}
+
+
+.about-Img img{
+    width: 100%;
+ 
+}
+
+
+
+.aboutUs .about-text{
+    margin-top: 81px;
+    padding: 44px;
+
+}
+.aboutHeading{
+    font-size: 4.6rem;
+    font-family: Roboto;
+    font-weight: lighter;
+    color: #676666;
+}
+.yenri-Abt-btn {
+    background-color: #5B8AC7;
+    border: none;
+    padding: 13px 57px;
+    border-radius: 28px;
+    box-shadow: 1px 11px 5px rgb(0 0 0 / 16%);
+    position: relative;
+    color: #ffff;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.yenri-Abt-btn::after {
+    content: " ";
+    height: 87%;
+    width: 54px;
+    background-color: #dfe0e161;
+    position: absolute;
+    right: 4px;
+    top: 4px;
+    border-radius: 37px;
+    z-index: 1;
+}
+
+.about-Img img{
+    width: 100%;
+  
+}
+
+.abtpara{
+    
+    color: #CCCCCC;
+    margin-bottom: 34px;
+
+}
+/*   End of About US*/
+
+.Sevice-title{
+    text-align: center;
+    padding: 45px 0px;
+}
+
+.serviceheader{
+    color: #676666;
+    font-size: 70px;
+    font-family: sans-serif;
+}
+
+.services1{
+    background-color: #8080801a;
+    background-image: url(./images/blueBg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 80px 79px;
+}
+
+.mobile-Card1{
+    height: 520px;
+    border-radius: 20px;
+    box-shadow: 2px 3px 10px 2px grey;
+    position: relative;
+     background-color: #ffff; 
+     padding: 34px;
+     color: #676666;
+     background-image: url(./images/Path\ 736.png);
+     background-position: 27% 4%;
+     background-size: cover;
+     background-repeat: no-repeat;
+    
+}
+.mobile-Card1 .h3{
+    padding: 37px 78px; 
+}
+ .Card1,.Card2, .Card3, .Card4, .h3{
+    padding: 37px 31px;
+    color: #ffff;
+}
+.mobile-Card1 .mobileApp{
+  
+    position: absolute;
+    bottom: 12px;
+    right: 7px;
+}
+.card-body{
+padding: 0px;
+}
+
+.colorCards .card {
+   
+    border-radius: 52px;
+    margin-bottom: 31px;
+    height: 245px;
+    background-image: url(./images/Path\ 736.png);
+    background-position: 81px -1px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 0px;
+    border-radius: 0px 44px 21px 21px;
+}
+
+
+ .Card1{
+    background-color: #5B8AC7;
+   
+    position: relative;
+    
+    }
+
+.Card2{
+  
+    background-color: #4BAFA1;
+    position: relative;
+    
+}
+
+.Card3{
+    
+    background-color: #8A7A7A;
+    position: relative;
+  
+    
+}
+
+.Card4{
+    
+    background-color: #D2D281;
+    position: relative;
+   
+}
+
+.Card1  img{
+   
+    position: absolute;
+    right: 33px;
+    bottom: 0;
+}
+
+.Card2 img{
+   
+    position: absolute;
+    right: 33px;
+    bottom: 0px;
+}
+
+.Card3 img{
+   
+    position: absolute;
+    right: 33px;
+    bottom: 0px;
+}
+.Card4 img{
+   
+    position: absolute;
+    right: 33px;
+    bottom: 0px;
+}
+/*  ENd of Service */
+
+.Services2{
+    background-color: #8080801a;
+}
+
+.WhtWeDo{
+    text-align: center;
+    padding: 71px  0px;
+    color: #676666;
+    font-size: 70px;
+    font-family: sans-serif;
+
+}
+.servicebtn{
+    position: absolute;
+    bottom: -19px;
+    right: 32px;
+}
+.readMorebtn{
+    background-color: #ffff;
+    border-radius: 21px;
+    padding: 9px;
+    height: 43px;
+    width: 139px;
+}
+
+.navbar-toggler-icon .fas {
+    color: #5b95ec;
+}
+.fas{
+    color: #EC615B;
+}
+
+.heading3{
+    color: #E8E8E8;
+    padding: 60px 0px 11px;
+}
+
+.whiteCards {
+    margin-bottom: 105px;
+}
+.consult {
+    height: 345px;
+    position: relative;
+    background-color: #ffff;
+    border-radius: 45px;
+    padding: 54px 25px;
+    box-shadow: 1px 20px 8px #8080804d;
+}
+ 
+.img1 img{
+    height: 166px;
+    width: 166px;
+    background-color: #ffff;
+    border-radius: 50%;
+    position: absolute;
+    top: -62px;
+    left: 2px;
+    border: 1px solid #00000073;
+   
+}
+
+
+.uiUx {
+    height: 345px;
+    position: relative;
+    background-color: #ffff;
+    border-radius: 45px;
+    padding: 54px 25px;
+    box-shadow: 1px 20px 8px #8080804d;
+}
+.uiUx img{
+    height: 166px;
+    width: 166px;
+    background-color: #ffff;
+    border-radius: 50%;
+    position: absolute;
+    top: -62px;
+    left: 2px;
+    border: 1px solid #00000073;
+}
+
+.Devop {
+    height: 345px;
+    position: relative;
+    background-color: #ffff;
+    border-radius: 45px;
+    padding: 54px 25px;
+    box-shadow: 1px 20px 8px #8080804d;
+}
+.Devop img{
+    height: 166px;
+    width: 166px;
+    background-color: #ffff;
+    border-radius: 50%;
+    position: absolute;
+    top: -62px;
+    left: 2px;
+    border: 1px solid #00000073;
+}
+
+.Testng {
+    height: 345px;
+    position: relative;
+    background-color: #ffff;
+    border-radius: 45px;
+    padding: 54px 25px;
+    box-shadow: 1px 20px 8px #8080804d;
+}
+.Testng img{
+    height: 166px;
+    width: 166px;
+    background-color: #ffff;
+    border-radius: 50%;
+    position: absolute;
+    top: -62px;
+    left: 2px;
+    border: 1px solid #00000073;
+}
+
+.Maintain {
+    height: 345px;
+    position: relative;
+    background-color: #ffff;
+    border-radius: 45px;
+    padding: 54px 25px;
+    box-shadow: 1px 20px 8px #8080804d;
+}
+.Maintain img{
+    height: 166px;
+    width: 166px;
+    background-color: #ffff;
+    border-radius: 50%;
+    position: absolute;
+    top: -62px;
+    left: 2px;
+    border: 1px solid #00000073;
+}
+/* What we do container end */
+
+.projects{
+   background-color: #8080801a; ;
+}
+
+.logolist{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0px;
+}
+
+.logolist li img{
+    height: 63px;
+    margin-right: 29px;
+    margin-bottom: 51px;
+}
+
+.collapse navbar-collapse{
+    justify-content: space-between;
+    width: 50%;
+}
+
+
+
+
+/*  End of projects logos*/
+
+.logo img{
+    height: 74px;
+    /* margin-bottom: 37px; */
+}
+.footer{
+    background-color: #262625;
+    color: #ffff;
+    /* padding: 51px 85px; */
+  
+    /* margin: 115px 0px 0px; */
+}
+
+
+.btns {
+    list-style: none;
+    display: flex;
+    padding: 90px 0px 0px;
+}
+
+.btns1{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    margin-left: 33px;
+}
+
+
+.footer a{
+    text-decoration: none;
+}
+/* .socioIcons{
+    padding-top: 21px ;
+    
+} */
+
+.insidefooter {
+    padding: 40px 0px 0px;
+   
+}
+
+.insidefooter1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+ .footerlists {
+    /* height: 40px; */
+    width: 91px;
+    background-color: gray;
+    color:  #FFFFFF;
+    border-radius: 20px;
+    text-align: center;
+    margin-right: 11px;
+    list-style: none;
+    padding: 8px;
+    margin-bottom: 19px;
+}
+
+.fab{
+    margin-right: 20px;
+    height: 48px;
+    width: 48px;
+    background-color: gray;
+    justify-content: center;
+    padding: 15px 15px;
+    border-radius: 52%;
+}
+
+
+.copyRights{
+    text-align: center;
+    color: #707070;
+    font-family: inherit;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Media Queries  */
+
+/* Small devices (landscape phones, 576px and up)*/
+
+@media screen and (min-device-width: 320px) and (max-device-width: 425px){ 
+    .logo img {
+        height: 44px;
+        /* margin-bottom: 37px; */
+    }
+
+   
+    .banner .Ban-Content {
+        
+        text-align: center;
+    }
+    
+    .navbar-toggler-icon .fas {
+        color: #5b95ec;
+    }
+    
+    .displayBan{
+        text-align: center;
+    }
+    .Ban-Content .displayBan {
+        font-size: 2.5rem;
+    }
+    .innerBanner {
+       
+        justify-content: space-between;
+    }
+
+    .Ban-Image img {
+        width: 100%;
+        
+       
+    }
+    .banner .Ban-Content {
+        text-align: center;
+    }
+    .Ban-Content .BanPara {
+        margin: 21px 0px;
+    }
+    .aboutUs .about-text {
+        margin-top: 0px;
+        text-align: center;
+    }
+    .aboutHeading {
+        font-size: 2.6rem;
+    }
+    /* .yenri-btn {
+        width: 78px;
+    } */
+    .yenri-Abt-btn {
+     
+        padding: 10px 35px;
+    }
+
+    .about-Img img {
+        width: 100%;
+       
+        /* left: -13px;
+        top: -57px; */
+    }
+    .Sevice-title {
+        text-align: center;
+        padding: 25px 0px;
+    }
+    .serviceheader {
+       
+       font-size: 45px;
+    }
+
+    .mobile-Card1{
+        margin-bottom: 25px;
+    }
+
+    .Card1{
+        height: 220px;  
+        width: 252px;
+        background-position: 63px 25px;
+    }
+
+    .colorCards .card{
+        height: 220px;
+        width: 253px;
+    }
+    .Card2{
+        height: 220px;  
+        width: 252px;
+        background-position: 63px 25px;
+    }
+
+    
+    .Card3{
+        height: 220px;  
+        width: 252px;
+        background-position: 63px 25px;
+    }
+
+   
+    .Card4{
+        height: 220px;  
+        width: 252px;
+        background-position: 63px 25px;
+    }
+
+    
+    .WhtWeDo {
+
+        font-size: 38px;
+    }
+    .whiteCards .heading3 {
+        padding: 14px 0px 0px;
+    }
+    .img1 img {
+        height: 125px;
+        width: 125px;
+    }
+
+    .readMorebtn {
+        
+        padding: 5px;
+        height: 38px;
+        width: 117px;
+    }
+    .uiUx img  {
+        height: 125px;
+        width: 125px;
+    }
+
+    .Devop img  {
+        height: 125px;
+        width: 125px;
+    }
+
+    .Testng img  {
+        height: 125px;
+        width: 125px;
+    }
+    .Maintain img{
+        height: 125px;
+        width: 125px;
+    }
+    
+
+  
+
+    .insidefooter1 {
+        padding: 45px 0px 0px;
+    }
+
+    .btns {
+        
+        padding: 0px;
+    }
+
+    .insidefooter1 {
+        
+        justify-content: center;
+    }
+}
+
+/* Medium devices (tablets, 768px and up)*/
+
+@media screen and (min-device-width: 425px) and (max-device-width: 768px){
+
+    .logo img {
+        height: 44px;
+        /* margin-bottom: 37px; */
+    }
+
+    .Ban-Image img {
+        width: 100%;
+        
+    }
+    .Ban-Content .displayBan {
+        font-size: 2.5rem;
+    }
+  
+    .banner .margin-top-30 {
+        margin-top : 20px;
+    }
+    .Ban-Content .BanPara {
+        margin: 15px 0px;
+        }
+    .about-Img img {
+        width: 100%;
+    }
+
+    .mobile-Card1 {
+        margin-bottom: 35px;
+    }
+
+    .insidefooter1 a {
+    
+        text-decoration: none; 
+    }
+
+    .banner .Ban-Content {
+        padding: 0px 70px;
+        width: 93%; 
+        margin-top: 53px;
+    }
+
+    .Ban-Content .BanPara {
+        margin: 27px 0px;
+    }
+
+    .Ban-Content .displayBan {
+        font-size: 2.5rem;
+    }
+
+    .aboutHeading {
+        font-size: 3.6rem;
+    } 
+    /* .yenri-btn {
+        padding: 9px 37px;
+    } */
+
+    .yenri-Abt-btn {
+    padding: 9px 37px;
+    }
+
+    .mobile-Card1{
+        margin-bottom: 30px;
+        }
+
+ 
+    .about-Img img {
+        width: 100%;
+        
+    }
+
+    .insidefooter1 {
+        padding: 40px 0px 0px;
+    }
+
+    .socioIcons{
+        margin: 21px 0px;
+
+    }
+  
+}
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Large devices (desktops, 992px and up)*/
+
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) { 
+
+
+    .colorCards .card {
+       
+        height: 245px;
+        margin-right: 0px;
+    }
+
+    .insidefooter1 {
+        padding: 40px 0px 0px;
+    }
+    .btns1 {
+        
+        justify-content: center;
+    }
+    
+    .btns {
+            padding:0px
+        }
+    
+
+ }
+
+
+ /* X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {  }
+
+/* XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) {  }
