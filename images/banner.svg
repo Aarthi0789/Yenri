@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2921.738" height="2970.579" viewBox="0 0 2921.738 2970.579">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.5" cy="0.5" r="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#d9e4f1"/>
+      <stop offset="1" stop-color="#bae5f5"/>
+    </radialGradient>
+    <filter id="Path_492" x="0" y="0" width="2921.738" height="2970.579" filterUnits="userSpaceOnUse">
+      <feOffset dy="50" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.02"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Path_492)">
+    <path id="Path_492-2" data-name="Path 492" d="M2211.419,924.824c-125.89-486.038-560.89-836.89-1071.486-850.962C870,66.422,585.948,154.32,379.142,461.909c-369.693,549.846,22.718,929.809,296.3,1110.356a1701.576,1701.576,0,0,1,353.829,312.242c184.793,215.3,540.292,482.841,963.678,63.646C2299.815,1644.317,2295.277,1248.573,2211.419,924.824Z" transform="translate(-213.09 1396.68) rotate(-40)" fill="url(#radial-gradient)"/>
+  </g>
+</svg>
